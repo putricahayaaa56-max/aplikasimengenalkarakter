@@ -30,7 +30,7 @@ Aplikasi berbasis Android yang dikembangkan menggunakan Kotlin dan Android Studi
 
 ## 📸 Tangkapan Layar (Screenshot)
 
-| Layar 1 (Beranda) | Layar 2 (Invalid Input) | Layar 3 (Kategori) | Layar 4 (Detail Karakter) |
+| Layar 1 (input invalid) | Layar 2 (input ) | Layar 3 (Kategori) | Layar 4 (Detail Karakter) |
 | :---: | :---: | :---: | :---: |
 | <img src="1.jpg" width="140"> | <img src="2.jpg" width="140"> | <img src="3.jpg" width="140"> | <img src="4.jpg" width="140"> |
 | *Halaman Beranda* | *Pesan Error* | *Pilihan Kategori* | *Detail Karakter* |
