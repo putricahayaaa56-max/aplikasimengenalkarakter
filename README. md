@@ -1,0 +1,38 @@
+# Mengenal Karakter Seseorang (Aplikasi Mobile)
+
+Aplikasi berbasis Android yang dikembangkan menggunakan Kotlin dan Android Studio untuk membantu mengenali berbagai tipe karakter dan kepribadian seseorang melalui serangkaian tes atau informasi interaktif. Aplikasi ini dirancang untuk tugas pemrograman mobile guna mempelajari navigasi multi-layar, lifecycle, transfer data antar Activity, serta penanganan validasi input dinamis.
+
+## 📱 Fitur & Layar Aplikasi
+
+1. **Layar 1 (Beranda):** Halaman utama untuk memasukkan nama, identitas pengguna, dan memulai eksplorasi karakter.
+2. **Layar 2 (Validasi Input / Error State):** Tampilan validasi input interaktif jika kolom kosong atau tidak sesuai format.
+3. **Layar 3 (Kategori Karakter):** Halaman yang menampilkan sapaan nama pengguna secara dinamis (*Intent Extra*) serta pilihan kelompok atau tipe kepribadian.
+4. **Layar 4 (Detail Karakter):** Halaman detail lengkap mengenai ciri-ciri, kelebihan, kekurangan, serta tips menghadapi karakter tersebut.
+
+## 🛠️ Komponen & Teknologi yang Digunakan
+
+* **Bahasa & Framework:** Kotlin, XML Layouts / Jetpack Compose
+* **Komponen Utama:** Activity Lifecycle, Intent Data Passing, Custom Validation
+* **Resource Management:** `strings.xml`, `colors.xml`
+
+## 🚀 Cara Menjalankan Aplikasi (Langsung di HP)
+
+1. **Persiapan HP:**
+   * Aktifkan *Developer Options (Opsi Pengembang)* di HP Android kamu.
+   * Aktifkan fitur *USB Debugging* di dalam menu Opsi Pengembang.
+   * Sambungkan HP ke laptop menggunakan kabel USB.
+2. **Buka Project di Android Studio:**
+   * Buka folder project melalui Android Studio.
+   * Tunggu proses *Gradle Sync* sampai selesai.
+3. **Jalankan Aplikasi:**
+   * Di bagian atas Android Studio, pastikan perangkat yang dipilih adalah nama HP fisik Anda (bukan emulator).
+   * Klik tombol **Run** (ikon play hijau / `Shift + F10`) untuk *build* dan *install* aplikasi secara otomatis langsung ke HP-mu.
+
+## 📸 Tangkapan Layar (Screenshot)
+
+## 📸 Tangkapan Layar (Screenshot)
+
+| Layar 1 (Beranda) | Layar 2 (Invalid Input) | Layar 3 (Kategori) | Layar 4 (Detail Karakter) |
+| :---: | :---: | :---: | :---: |
+| ![Layar 1](1.jpg) | ![Layar 2](2.jpg) | ![Layar 3](3.jpg) | ![Layar 4](4.jpg) |
+| *Halaman Beranda* | *Pesan Error* | *Pilihan Kategori* | *Detail Karakter* |
